@@ -1,0 +1,10 @@
+<div id="top" style="width: 100%;">
+    <h3>Latitude: {{latitude}}</h3> 
+    <h3>Longitude: {{longitude}}</h3>
+</div>
+<div id="map" style="height: 500px;width: 100%;"></div>
+<div id="list" style="width: 100%;">
+    <ul>
+        <li *ngFor="let item of locations"><h3>{{ item.locationName }}</h3></li>
+    </ul>    
+</div>
